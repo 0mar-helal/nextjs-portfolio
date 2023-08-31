@@ -1,0 +1,24 @@
+{
+  "name": "my-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "aos": "^2.3.4",
+    "axios": "^1.5.0",
+    "bootstrap": "^5.3.1",
+    "formik": "^2.4.3",
+    "react-bootstrap": "^2.8.0",
+    "react-parallax-tilt": "^1.7.163",
+    "react-toastify": "^9.1.3",
+    "swiper": "^10.2.0",
+    "typewriter-effect": "^2.20.1",
+    "yup": "^1.2.0"
+  }
+}

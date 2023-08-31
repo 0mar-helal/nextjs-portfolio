@@ -1,0 +1,41 @@
+.about-section {
+    scroll-margin-top: 90px !important;
+    color: white !important;
+    background-color: var(--light-bg);
+    position: relative;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+
+.about-content {
+    display: flex;
+    gap: 30px !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.about-body {
+    color: white !important;
+    font-size: 1.2em !important;
+    text-align: left;
+}
+.myAvtar {
+    width: max-content !important;
+}
+@media (max-width: 767px) {
+    .about-body {
+        text-align: center;
+    }
+    .myAvtar {
+        margin: 40px auto;
+        width: 300px !important;
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 420px) {
+    .myAvtar {
+        width: 250px !important;
+        height: 250px !important;
+    }
+}

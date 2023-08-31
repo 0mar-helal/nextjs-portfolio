@@ -1,0 +1,26 @@
+footer {
+    background-image: linear-gradient(45deg, var(--dark-bg), var(--light-bg), var(--dark-bg));
+}
+.footer-container {
+    padding: 25px 50px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+.footer-container p {
+    margin:0;
+    width: max-content;
+}
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+@media (max-width: 420px) {
+    .footer-container {
+        font-size: 12px;
+    }
+}
